@@ -1,0 +1,85 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #FCE4EC 30%, #E3F2FD 100%);
+}
+
+/* Hero Section */
+.hero {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #90CAF9;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 24px;
+    font-size: 18px;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #FF9AA2;
+    transform: scale(1.05);
+}
+
+/* Highlight active navbar link */
+.navbar-nav .nav-link {
+    position: relative;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Navbar Link Hover Effect */
+.navbar-nav .nav-link {
+    position: relative;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Underline effect */
+.navbar-nav .nav-link::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #FF9AA2; /* Soft Pink */
+    position: absolute;
+    left: 50%;
+    bottom: -3px;
+    transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+}
+
+/* Expand underline on hover */
+.navbar-nav .nav-link:hover::after {
+    width: 100%;
+    left: 0;
+}
+.navbar-nav .nav-link:hover {
+    color: #90CAF9 !important; /* Sky Blue */
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+.navbar-nav .nav-link {
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+/* Add glow effect on hover */
+.navbar-nav .nav-link:hover {
+    background: rgba(255, 154, 162, 0.2); /* Soft Pink Glow */
+}
+
