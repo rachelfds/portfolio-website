@@ -42,3 +42,19 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
+AOS.init({
+    duration: 1000, // Animation duration (1 second)
+    once: true // Animations play only once
+});
+
+const text = "Hello, I'm Rachel Jacob Fernandes";
+let index = 0;
+function typeEffect() {
+    if (index < text.length) {
+        document.getElementById("typing-effect").innerHTML += text.charAt(index);
+        index++;
+        setTimeout(typeEffect, 100);
+    }
+}
+window.onload = typeEffect;

@@ -4,6 +4,7 @@ body {
     background: linear-gradient(to right, #ffb6c1, #87CEEB);
 }
 
+
 /* Hero Section */
 .hero {
     height: 90vh;
@@ -12,12 +13,13 @@ body {
     justify-content: center;
     text-align: center;
     padding: 20px;
-    color: #333;
+    color: white;
 }
 /* Center Content in Home Section */
 #home {
     background: linear-gradient(to right, #ffb6c1, #87CEEB); /* Soft Pink & Sky Blue Gradient */
-    color: #333; 
+    color: white;
+
 }
 
 /* Social Icons Styling */
@@ -124,10 +126,11 @@ body {
 }
 
 
-/* Section Styling */
-section {
+/* About Section Styling */
+#about {
+    background: linear-gradient(to right, #ffb6c1, #87CEEB); /* Soft Pink & Sky Blue Gradient */
     padding: 60px 0;
-    text-align: center;
+    color: white;
 }
 
 /* Profile Picture */
@@ -138,6 +141,16 @@ section {
     border: 5px solid #fff; /* White Border */
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
 }
+
+/* About Text */
+.about-text {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+
+
 /* Adjust for Smaller Screens */
 @media (max-width: 768px) {
     .profile-pic {
@@ -168,7 +181,7 @@ section {
 
 .skill-icon {
     font-size: 40px;
-    color: #fff;
+    color: #1d1717;
     margin-bottom: 10px;
 }
 
