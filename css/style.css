@@ -1,7 +1,7 @@
 /* General Styling */
 body {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #FCE4EC 30%, #E3F2FD 100%);
+    background: linear-gradient(to right, #ffb6c1, #87CEEB);
 }
 
 /* Hero Section */
@@ -14,6 +14,46 @@ body {
     padding: 20px;
     color: #333;
 }
+/* Center Content in Home Section */
+#home {
+    background: linear-gradient(to right, #ffb6c1, #87CEEB); /* Soft Pink & Sky Blue Gradient */
+    color: #333; 
+}
+
+/* Social Icons Styling */
+.social-icons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-link {
+    font-size: 28px;
+    color: #333;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-link:hover {
+    color: #f8d7da; /* Light Pink */
+    transform: scale(1.2);
+}
+
+/* Download CV Button */
+.btn-primary {
+    background-color: #ff69b4; /* Soft Pink */
+    border: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #87CEEB; /* Sky Blue */
+    transform: scale(1.1);
+}
+
 
 /* Navbar */
 .navbar {
@@ -81,5 +121,214 @@ body {
 /* Add glow effect on hover */
 .navbar-nav .nav-link:hover {
     background: rgba(255, 154, 162, 0.2); /* Soft Pink Glow */
+}
+
+
+/* Section Styling */
+section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+/* Profile Picture */
+.profile-pic {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border: 5px solid #fff; /* White Border */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+/* Adjust for Smaller Screens */
+@media (max-width: 768px) {
+    .profile-pic {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+
+/* Skills Section */
+#skills {
+    background:linear-gradient(to right, #ffb6c1, #87CEEB); /* Soft Pink & Sky Blue Gradient */
+    color: white;
+    padding: 60px 0;
+}
+
+.skill-box {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
+}
+
+.skill-box:hover {
+    transform: translateY(-10px);
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.skill-icon {
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.skill-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .skill-box {
+        margin-bottom: 20px;
+    }
+}
+
+
+/* Projects Section */
+#projects {
+    background: linear-gradient(to right, #ffb6c1, #87CEEB); /* Soft Pink & Sky Blue Gradient */
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+/* Project Card */
+.project-card {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    height: 100%;
+}
+
+/* Hover Effect */
+.project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.5);
+}
+
+/* Project Icon */
+.project-icon {
+    background: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+}
+
+.project-icon i {
+    font-size: 24px;
+    color: black;
+}
+
+/* Project Title */
+.project-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Project Description */
+.project-description {
+    font-size: 0.9rem;
+}
+
+/* GitHub Code Link */
+.project-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background: white;
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.project-link:hover {
+    background: yellow;
+    color: black;
+}
+
+/* Contact Section */
+#contact {
+    background: linear-gradient(to right, #ffb6c1, #87CEEB); /* Soft Pink & Sky Blue Gradient */
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+/* Social Media Icons */
+.contact-links {
+    margin: 20px 0;
+}
+
+.contact-icon {
+    font-size: 2rem;
+    margin: 0 15px;
+    color: white;
+    transition: 0.3s;
+}
+
+.contact-icon:hover {
+    color: yellow;
+}
+
+/* Contact Form */
+.contact-form {
+    max-width: 500px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact-form button {
+    background: white;
+    color: black;
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    background: yellow;
+}
+
+/* CV Download Button */
+.cv-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: white;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.cv-btn:hover {
+    background: yellow;
 }
 
