@@ -54,7 +54,7 @@ Welcome to my personal portfolio website! This website showcases my **skills, pr
 
 	🎥 Live Demo
 
-🔗 View Portfolio Website
+🔗 https://rachelfds.github.io/portfolio-website/
 
 ---
 
