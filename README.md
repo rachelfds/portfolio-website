@@ -23,15 +23,6 @@ Welcome to my personal portfolio website! This website showcases my **skills, pr
 
 ---
 
-## 📂 Folder Structure  
-/portfolio-website
-│── index.html # Main HTML File
-│── style.css # Custom Styling
-│── script.js # JavaScript Effects
-│── assets/ # Images, Icons, and other assets
-│── README.md # Project Documentation
-│── LICENSE # License File
-
 🎯 Key Sections
 🔹 Home Page
 Animated text effect
